@@ -1,0 +1,163 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.body {
+    padding-top: 70px;
+    display: flex;
+    display: -webkit-flex;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #4c38e5;
+    position: fixed;
+}
+
+.logo {
+    transform: translateX(100px);
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.main {
+    list-style: none;
+    display: flex;
+    padding: 0 200px 0 300px;
+    margin: 0;
+}
+
+.main>li {
+    position: relative;
+}
+
+.main>li>a {
+    color: antiquewhite;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #F7E1C2;
+}
+
+.logo {
+    transform: translateX(150px);
+}
+
+.main>li>ul.sub {
+    position: fixed ;
+    background-color: #131921e9;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    width: 200px;
+}
+
+.main>li>ul.sub>li {
+    display: none;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 25px;
+}
+
+.main>li:hover>ul.sub>li {
+    display: block;
+    font-weight: 100;
+}
+
+.main>li>ul.sub>li:hover {
+    display: block;
+    background: #fc3b00a0;
+    color: #7db4fb;
+    font-weight: 500;
+}
+
+.main>li>ul.sub>li:last-child {
+    border: none;
+}
+.left_nav {
+    flex: 1;
+    -ms-flex: 1;
+    margin: 0;
+    background-color: #7db4fb;
+    list-style: none;
+    height:max-content;
+}
+
+.left_nav>li>a {
+    list-style: none;
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    background-color: #7db4fb;
+}
+.content {
+    flex: 3;
+    -ms-flex: 3;
+}
+
+.right_nav {
+    flex: 1;
+    -ms-flex: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #F7E1C2;
+}
+
+p {
+    padding: 5px 0 0 0;
+    color: #F7E1C2;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+i {
+    transform: translateY(1px);
+}
+
+table {
+    margin: 0 120px;
+}
+
+table, td, tr{
+    width: 50%;
+    color: #131921;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    background-color: #7db4fb;
+}
+
+#num1, #num2{
+    width: 97%;
+}
+
+.col2 {
+    text-align:center;
+}
+.math {
+    padding: 0 px; 
+}
+* {
+    margin:0;
+}

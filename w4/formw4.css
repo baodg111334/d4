@@ -1,0 +1,25 @@
+.header1{
+    height: 80px;
+    background: rgb(127, 218, 240);
+    text-align: center;
+}
+.main{
+    height: 40px;
+    background: black;
+}
+.menu1>ul>li{
+    list-style: none;
+    float: left;
+}
+.menu_left1{
+    width: 300px;
+    background: rgb(122, 214, 171);
+}
+.footer1{
+    height: 80px;
+    background: rgba(62, 245, 111, 0.812);
+}
+
+* {
+    margin:0;
+}
